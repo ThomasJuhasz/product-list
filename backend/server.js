@@ -8,7 +8,7 @@ var productData = require('./static-data.js');
 
 var server = express();
 
-server.use('/', express.static(__dirname + '/'));
+server.use('/', express.static(__dirname + '/../'));
 server.use(cors());
 server.options('*', cors());   
 

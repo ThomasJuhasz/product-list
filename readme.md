@@ -32,8 +32,8 @@ The server side returns an array of products:
 2. Run node backend `npm run serve` 
 3. Open the site on <http://localhost:8080/>
 
-## Endpoints
+## API Endpoints
 
-1. http://localhost:8080/api/products?id=1
+2. http://localhost:8080/api/products?id=1
 
-2. http://localhost:8080/api/products
+3. http://localhost:8080/api/products
