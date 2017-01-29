@@ -34,6 +34,6 @@ The server side returns an array of products:
 
 ## API Endpoints
 
-2. http://localhost:8080/api/products?id=1
+2. <http://localhost:8080/api/product?id=1>
 
-3. http://localhost:8080/api/products
+3. <http://localhost:8080/api/products>
