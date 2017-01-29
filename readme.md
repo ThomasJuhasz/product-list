@@ -11,12 +11,12 @@ Clicking on a product shows a detail page of that product, where the product's d
 The server side returns an array of products:
 
 ## Product
-+ Name: string
-+ Price: decimal
-+ Rating: number (1-5)
-+ IsNew: boolean
-+ Image: base64 image or url (you choose)
-+ Description: string
++ name: string
++ price: decimal
++ rating: number (1-5)
++ isNew: boolean
++ image: base64 image or url (you choose)
++ description: string
 
 
 ## Priority
