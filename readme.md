@@ -15,7 +15,8 @@ The server side returns an array of products:
 + price: decimal
 + rating: number (1-5)
 + isNew: boolean
-+ image: base64 image or url (you choose)
++ image: url
++ offlineImage: base64 image for testing offline
 + description: string
 
 
