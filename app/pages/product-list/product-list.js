@@ -16,10 +16,6 @@
             vm.products = response.data;
         });
 
-        vm.onProductSelect = function(product) {
-            vm.selectedProduct = product;
-        };
-
         vm.filterIsNew = function(product) {
             return !vm.isNewFilter || product.isNew
         }

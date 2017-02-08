@@ -7,5 +7,4 @@
 
 <thj-product ng-repeat="product in vm.products | orderBy: 'name' | filter: { name: vm.textFilter } | filter: vm.filterIsNew" 
              thj-data="product"
-             ng-click="vm.onProductSelect(product)"
              ui-sref="productDetail({ id: product.id })"></thj-product>
