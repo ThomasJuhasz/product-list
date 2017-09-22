@@ -1,7 +1,7 @@
 # Create a filterable product list. 
 
 The product list's product items show the product's name, price, rating and image. 
-Above the product list there is a searchfield (textbox) and a checkbox:  
+Above the product list there is a searchfield (textbox) and a checkbox: "Show only new items"
 Typing in the search field filters the products by name (typing "ms" shows "Samsung" as well)
 Selecting the "New" labeled checkbox filters the list to only show the products where the "IsNew" property is true
 
